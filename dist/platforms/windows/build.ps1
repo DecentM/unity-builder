@@ -109,7 +109,7 @@ Write-Output "#    Building project     #"
 Write-Output "###########################"
 Write-Output ""
 
-& "C:\Program Files\Unity\Hub\Editor\$Env:UNITY_VERSION\Editor\Unity.exe" -quit -batchmode -nographics `
+& "C:\Program Files\Unity\Hub\Editor\$Env:UNITY_VERSION\Editor\Unity.exe" -batchmode -nographics `
                                                                           -projectPath $Env:UNITY_PROJECT_PATH `
                                                                           -executeMethod $Env:BUILD_METHOD `
                                                                           -buildTarget $Env:BUILD_TARGET `
